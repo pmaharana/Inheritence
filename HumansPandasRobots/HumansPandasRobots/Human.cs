@@ -9,6 +9,22 @@ namespace HumansPandasRobots
     public class Human
     {
         public string Name { get; set; }
+        public string Food { get; set; }
+
+        public string DisplayName()  //display name method
+        {
+            return this.Name;
+        }
         
+        public string DisplayGreeting()  //Display greeting method
+        {
+            return ($"Hello, my name is {DisplayName()}");
+        }
+
+        public void Eat(string food)    //Eat method
+        {
+            this.Food = food;
+            Console.WriteLine($"Yum, I that some good {food}");
+        }
     }
 }
