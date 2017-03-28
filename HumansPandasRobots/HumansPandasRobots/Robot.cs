@@ -9,16 +9,19 @@ namespace HumansPandasRobots
     public class Robot
     {
         public string Name { get; set; }
+        public bool TerminatorStatus { get; set; }
 
 
-        public string DisplayName()  //display name method
+        //public string DisplayName(string name)  //display name method
+        //{
+        //    name = this.Name;
+        //    return this.Name;
+        //}
+
+        public void DisplayGreeting()  //Display greeting method
         {
-            return this.Name;
-        }
 
-        public string DisplayGreeting()  //Display greeting method
-        {
-            return ($"Hello, my name is {DisplayName()}");
+            //Console.WriteLine($"Hello, my name is {DisplayName()}");
         }
         public void StartUp()
         {
@@ -29,6 +32,19 @@ namespace HumansPandasRobots
             Console.WriteLine("Shutting down...");
         }
 
+       public void IsATerminator()
+        {
+            bool termstatus = this.TerminatorStatus;
+            if (termstatus)
+            {
+                Console.WriteLine("This is a terminator!");
+            } 
+            else
+            {
+                Console.WriteLine("This is NOT a terminator");
+            }
+        }
+        
 
     }
 }

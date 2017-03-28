@@ -26,6 +26,14 @@ namespace HumansPandasRobots
             this.Food = food;
             Console.WriteLine($"Yum, I that some good {food}");
         }
+        public void GoToSleep()          //Go to sleep method
+        {
+
+        }
+        public void WakeUp()                //Wake up method
+        {
+
+        }
 
     }
 }

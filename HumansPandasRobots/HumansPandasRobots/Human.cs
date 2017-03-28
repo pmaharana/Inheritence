@@ -10,6 +10,7 @@ namespace HumansPandasRobots
     {
         public string Name { get; set; }
         public string Food { get; set; }
+        
 
         public string DisplayName()  //display name method
         {
@@ -25,6 +26,14 @@ namespace HumansPandasRobots
         {
             this.Food = food;
             Console.WriteLine($"Yum, I that some good {food}");
+        }
+        public void GoToSleep()          //Go to sleep method
+        {
+
+        }
+        public void WakeUp()                //Wake up method
+        {
+
         }
     }
 }

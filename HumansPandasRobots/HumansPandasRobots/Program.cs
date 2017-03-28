@@ -10,6 +10,14 @@ namespace HumansPandasRobots
     {
         static void Main(string[] args)
         {
+            Robot robot1 = new Robot()
+            {   Name = "MechaGodzilla",
+                TerminatorStatus = true
+            };
+            
+
+            Console.WriteLine($"Hello, my name is {robot1.Name}");
+            robot1.IsATerminator();
         }
     }
 }
