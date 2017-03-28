@@ -10,6 +10,7 @@ namespace HumansPandasRobots
     {
         public string Name { get; set; }
         public string Food { get; set; }
+        public bool Asleep { get; set; }
 
         public string DisplayName()  //display name method
         {

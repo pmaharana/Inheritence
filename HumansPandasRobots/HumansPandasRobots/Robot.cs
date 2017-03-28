@@ -12,17 +12,16 @@ namespace HumansPandasRobots
         public bool TerminatorStatus { get; set; }
 
 
-        //public string DisplayName(string name)  //display name method
-        //{
-        //    name = this.Name;
-        //    return this.Name;
-        //}
-
-        public void DisplayGreeting()  //Display greeting method
+        public string DisplayName()  //display name method
         {
-
-            //Console.WriteLine($"Hello, my name is {DisplayName()}");
+            return this.Name;
         }
+
+        public string DisplayGreeting()  //Display greeting method
+        {
+            return ($"Hello, my name is {DisplayName()}");
+        }
+
         public void StartUp()
         {
             Console.WriteLine("..Starting up system");

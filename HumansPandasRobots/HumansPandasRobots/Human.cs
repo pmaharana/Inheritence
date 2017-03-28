@@ -10,7 +10,8 @@ namespace HumansPandasRobots
     {
         public string Name { get; set; }
         public string Food { get; set; }
-        
+        public bool IsAsleep { get; set; }
+
 
         public string DisplayName()  //display name method
         {
@@ -25,7 +26,7 @@ namespace HumansPandasRobots
         public void Eat(string food)    //Eat method
         {
             this.Food = food;
-            Console.WriteLine($"Yum, I that some good {food}");
+            Console.WriteLine($"Yum, I ate some good {food}");
         }
         public void GoToSleep()          //Go to sleep method
         {
@@ -34,6 +35,18 @@ namespace HumansPandasRobots
         public void WakeUp()                //Wake up method
         {
 
+        }
+        public void IsUserAsleep()
+        {
+            bool sleepstatus = this.IsAsleep;
+            if (IsAsleep)
+            {
+                Console.WriteLine($"{DisplayName()} is asleep");
+            }
+            else
+            {
+                Console.WriteLine($"{DisplayName()} is awake");
+            }
         }
     }
 }

@@ -18,6 +18,20 @@ namespace HumansPandasRobots
 
             Console.WriteLine($"Hello, my name is {robot1.Name}");
             robot1.IsATerminator();
+
+            Human human1 = new Human()
+            {
+                Name = "YUGIOOOOHHH",
+                IsAsleep = true
+            };
+
+            human1.Eat("quesadilla");
+
+            Console.WriteLine(human1.DisplayGreeting());
+
+            human1.IsUserAsleep();
+
+
         }
     }
 }

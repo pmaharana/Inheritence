@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ancestor.cs" />
     <Compile Include="Human.cs" />
     <Compile Include="Panda.cs" />
     <Compile Include="Program.cs" />
