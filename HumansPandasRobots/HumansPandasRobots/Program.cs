@@ -25,11 +25,29 @@ namespace HumansPandasRobots
                 IsAsleep = true
             };
 
+
             human1.Eat("quesadilla");
 
             Console.WriteLine(human1.DisplayGreeting());
 
             human1.IsUserAsleep();
+
+            human1.WakeUp();
+
+            human1.IsUserAsleep();
+
+            Panda panda1 = new Panda()
+            {
+                Name = "Chen Stormstoud",
+                IsAsleep = false,
+                Age = 65
+            };
+            Console.WriteLine(panda1.DisplayGreeting());
+            panda1.Eat("bamboo");
+            panda1.WakeUp();
+            panda1.IsUserAsleep();
+
+
 
 
         }

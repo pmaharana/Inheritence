@@ -42,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ancestor.cs" />
+    <Compile Include="Machine.cs" />
     <Compile Include="Human.cs" />
+    <Compile Include="Meatbag.cs" />
     <Compile Include="Panda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
