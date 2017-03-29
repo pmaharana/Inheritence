@@ -10,7 +10,8 @@ namespace HumansPandasRobots
     {
         public string Name { get; set; }
         public bool TerminatorStatus { get; set; }
-
+        public int Age { get; set; }
+        public string TypeofDrink { get; set; }
 
         public string DisplayName()  //display name method
         {
@@ -43,7 +44,11 @@ namespace HumansPandasRobots
                 Console.WriteLine("This is NOT a terminator");
             }
         }
-        
+
+        public void Drink()
+        {
+
+        }
 
     }
 }

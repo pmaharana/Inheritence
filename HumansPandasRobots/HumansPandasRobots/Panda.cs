@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace HumansPandasRobots
 {
-    public class Panda : Meatbag
+    public class Panda : Sentient, IEdible
     {
-        
 
-       
+        public void Drink()
+        {
+
+        }
+
 
     }
 }

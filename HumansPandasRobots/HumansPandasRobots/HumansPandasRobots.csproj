@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Machine.cs" />
+    <Compile Include="IEdible.cs" />
+    <Compile Include="Sentient.cs" />
     <Compile Include="Human.cs" />
     <Compile Include="Meatbag.cs" />
     <Compile Include="Panda.cs" />
