@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HumansPandasRobots
 {
-    public class Robot
+    public class Robot : IEdible
     {
         public string Name { get; set; }
         public bool TerminatorStatus { get; set; }

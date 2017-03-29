@@ -1,0 +1,6 @@
+C:\Users\prana\tiy\week-3\day-2\Inheritence\HumansPandasRobots\HumansPandasRobots\bin\Debug\HumansPandasRobots.exe.config
+C:\Users\prana\tiy\week-3\day-2\Inheritence\HumansPandasRobots\HumansPandasRobots\bin\Debug\HumansPandasRobots.exe
+C:\Users\prana\tiy\week-3\day-2\Inheritence\HumansPandasRobots\HumansPandasRobots\bin\Debug\HumansPandasRobots.pdb
+C:\Users\prana\tiy\week-3\day-2\Inheritence\HumansPandasRobots\HumansPandasRobots\obj\Debug\HumansPandasRobots.csprojResolveAssemblyReference.cache
+C:\Users\prana\tiy\week-3\day-2\Inheritence\HumansPandasRobots\HumansPandasRobots\obj\Debug\HumansPandasRobots.exe
+C:\Users\prana\tiy\week-3\day-2\Inheritence\HumansPandasRobots\HumansPandasRobots\obj\Debug\HumansPandasRobots.pdb

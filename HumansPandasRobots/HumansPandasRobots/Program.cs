@@ -85,6 +85,17 @@ namespace HumansPandasRobots
 
             human1.DisplayType();
 
+            List<IEdible> canDrink = new List<IEdible>();
+            canDrink.Add(ash);
+            canDrink.Add(robot1);
+            canDrink.Add(gundam);
+            canDrink.Add(panda1);
+
+            foreach (var names in canDrink)
+            {
+                Console.WriteLine($"I am a {names.GetType().Name} !");
+            }
+
 
 
         }
